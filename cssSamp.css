@@ -1,0 +1,68 @@
+body {
+	background-color: #eeeeee;
+	font-family: sans-serif;
+	color: black;
+}
+
+h1 {
+	color: #000000;
+	font-family: monospace;
+	font-size: 200%;
+	margin: 10px;
+	border: 2px solid black;
+	padding: 4px;
+}
+
+h2 {
+	padding: 10px;
+	margin: 10px;
+	text-align: left;
+}
+
+h3 {
+	padding: 10px;
+	margin: 10px;
+}
+
+p {
+	color: black;
+	background: transparent;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #444444;
+}
+
+#p01 {
+	color: tomato;
+	text-align: center;
+	font-size: 150%;
+	font-style: oblique;
+}
+
+address {
+	margin: 10px;
+}
+
+p.poetry{
+	font-style: italic;
+}
+
+a:link {
+	color: violet;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: #eeeeee;
+	background-color: purple;
+	text-decoration: underline;
+}
+
+a.img:hover {
+	background-color: transparent;
+}

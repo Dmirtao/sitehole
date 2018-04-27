@@ -7,11 +7,31 @@
 		font-family: sans-serif;
 	}
 	</style>
+	<script  src="javascriptPrac.js"></script>
+	<!--
+	<script type="text/javascript">
+		function myFunc() {
+			// body... 
+			document.getElementById('demo').innerHTML = "Paragraph changed."
+		}
+	</script>
+-->
 </head>
 <body>
 	<h2>Javascript Practice Area</h2>
 	<button type="button" onclick="document.getElementById('date').innerHTML = Date()">Date me</button>
-
 	<p id="date"></p>
+
+	<p id="demo"> </p>
+
+	<button type="button" onclick="myFunction()">Try me</button>
+	
+	<script type="text/javascript">
+		function trip() {
+			// body... 
+			document.getElementById("demo").innerHTML = "My first child";
+		}
+	</script>
+
 </body>
 </html>
